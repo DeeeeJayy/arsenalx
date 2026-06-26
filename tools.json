@@ -1,0 +1,35 @@
+[
+  {
+    "name": "custom-recon-script",
+    "description": "Custom recon automation script",
+    "category": "Recon",
+    "install": {
+      "linux": "git clone https://github.com/example/custom-recon.git",
+      "mac": "git clone https://github.com/example/custom-recon.git",
+      "windows": "git clone https://github.com/example/custom-recon.git"
+    },
+    "note": "Sample user-added tool"
+  },
+  {
+    "name": "privesc-checker",
+    "description": "Automated privilege escalation checker",
+    "category": "Post",
+    "install": {
+      "linux": "pip install privesc-checker",
+      "mac": "pip install privesc-checker",
+      "windows": "pip install privesc-checker"
+    },
+    "note": "Example custom tool"
+  },
+  {
+    "name": "java",
+    "description": "na",
+    "category": "Recon",
+    "install": {
+      "linux": "na",
+      "mac": "na",
+      "windows": ""
+    },
+    "note": ""
+  }
+]

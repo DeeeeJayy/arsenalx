@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+MANIFEST
+
+# PyInstaller
+*.spec
+*.manifest
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+.pyright/
+
+# Linters / formatters
+.ruff_cache/
+
+# IDE / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS artifacts
+Desktop.ini
+
+# ArsenalX user data — keep tools.json tracked as a demo skeleton,
+# but ignore personal exports and backups
+export_*.json
+backup*.json
+my_tools_*.json
+
+# Logs
+*.log
